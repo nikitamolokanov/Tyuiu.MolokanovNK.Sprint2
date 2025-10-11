@@ -19,9 +19,9 @@ namespace Tyuiu.MolokanovNK.Sprint2.Task3.V19.Lib
                     }
                     else
                     {
-                    if (-23 < x) && (x < 2)
+                    if ((-23 < x) && (x < 2))
                         {
-                            y = 1 + (1 / Math.Pow(x, 2))), x);
+                             y = 1 + (1 / Math.Pow(x, 2));
                         }
                         else
                         {
