@@ -24,6 +24,7 @@ namespace Tyuiu.MolokanovNK.Sprint2.Task4.V16.Test
             double wait = 15.504;
             double res = ds.Calculate(x, y);
             Assert.AreEqual(wait, res);
+
         }
 
     }
