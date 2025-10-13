@@ -6,7 +6,7 @@ namespace Tyuiu.MolokanovNK.Sprint2.Task5.V15.Lib
     {
         public string FindDayName(int k)
         {
-
+            int DayOfWeek = (k - 1) % 7 + 1;
             string res;
             switch (k)
             {
