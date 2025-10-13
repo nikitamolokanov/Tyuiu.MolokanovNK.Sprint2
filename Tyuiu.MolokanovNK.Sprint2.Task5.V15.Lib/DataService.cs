@@ -32,7 +32,7 @@ namespace Tyuiu.MolokanovNK.Sprint2.Task5.V15.Lib
                     res = "Воскресенье";
                     break;
                 default:
-                    throw new ArgumentException($"Укажите день от 1 до 365. Значение {k}. Укажите день недели 1 января от 1 до 7.");
+                    throw new ArgumentException($"1 января должен быть понедельник. Значение {k}");
             }
             return res;
         }
