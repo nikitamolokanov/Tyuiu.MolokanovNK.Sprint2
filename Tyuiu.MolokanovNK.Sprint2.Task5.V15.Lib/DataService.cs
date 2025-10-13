@@ -8,7 +8,7 @@ namespace Tyuiu.MolokanovNK.Sprint2.Task5.V15.Lib
         {
             int DayOfWeek = (k - 1) % 7 + 1;
             string res;
-            switch (k)
+            switch (DayOfWeek)
             {
                 case 1: res = "Понедельник"; break;
                 case 2: res = "Вторник"; break;
@@ -17,7 +17,7 @@ namespace Tyuiu.MolokanovNK.Sprint2.Task5.V15.Lib
                 case 5: res = "Пятница"; break;
                 case 6: res = "Суббота"; break;
                 case 7: res = "Воскресенье"; break;
-                default: throw new ArgumentException($"1 января должен быть понедельник. Значение {k}");
+                default: throw new ArgumentException($"День года должен быть от 1 до 365. Значение {k}");
             }
             return res;
 
