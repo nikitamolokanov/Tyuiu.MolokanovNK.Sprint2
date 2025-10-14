@@ -21,10 +21,10 @@ Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                             
 Console.WriteLine("*******************************************************************************");
 
 Console.WriteLine("Введите значение X:");
-int x = Convert.ToInt32(Console.ReadLine());
+double x = Convert.ToDouble(Console.ReadLine());
 
 Console.WriteLine("Введите значение Y:");
-int y = Convert.ToInt32(Console.ReadLine());
+double y = Convert.ToDouble(Console.ReadLine());
 
 bool res = ds.CheckDotInShadedArea(x, y);
 Console.WriteLine("*****************************************************************************");

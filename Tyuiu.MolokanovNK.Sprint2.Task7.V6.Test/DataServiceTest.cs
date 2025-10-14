@@ -11,11 +11,11 @@ namespace Tyuiu.MolokanovNK.Sprint2.Task7.V6.Test
             {
                 DataService ds = new DataService();
 
-                double x = 1.5;
-                double y = 1.5;
+                double x = -2;
+                double y = 2;
 
                 bool res = ds.CheckDotInShadedArea(x, y);
-                bool wait = false;
+                bool wait = true;
                 Assert.AreEqual(wait, res);
             }
         }
